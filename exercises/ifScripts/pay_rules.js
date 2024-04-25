@@ -2,6 +2,8 @@
 
 var payRate = 17.30;
 var hoursWorked = 45;
+var overTimeRate = 1.5;
+var regularHours = 40;
 var pay;
 
 // under 40 hourse
@@ -18,7 +20,7 @@ else if (hoursWorked == 40) {
 
 // over 40 hours
 else {
-    pay =(40 * payRate) + (payRate * 1.5 * (hoursWorked - 40));
+    pay =(regularHours * payRate) + (payRate * overTimeRate * (hoursWorked - regularHours));
 }
 console.log(pay);
 
