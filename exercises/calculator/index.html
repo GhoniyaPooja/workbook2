@@ -3,25 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculator</title>
 </head>
 <body>
-    <div>
-        Number 1: <input  id="num1" /><br>
-        Number 2: <input  id="num2" /><br>
+    <main>
+        <label for="numberOneInput">Number 1:</label>
+        <input id="numberOneInput" type="text"><br><br>
 
-        <button id="keyoperator" value="add">Add</button>
+        <label for="numberTwoInput">Number 2:</label>
+        <input id="numberTwoInput" type="text"><br><br>
 
-        <button id="keyoperator" value="subtract">Subtract</button>
+        <button id="addButton">Add</button>
+        <button>Sub</button>
+        <button>Multiply</button>
+        <button>Divide</button><br><br>
 
-        <button id="keyoperator" value="multiply">Multiply</button>
-
-        <button id="keyoperator" value="divide">Divide</button><br>
-
-        Answer: <input  id="num1" />
+        <label for="answer">Answer 2:</label>
+        <input id="answer" type="text">
 
 
-    </div>
+    </main>
     <script src="script/index.js"></script>
 </body>
 </html>
+
